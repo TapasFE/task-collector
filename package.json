@@ -2,12 +2,11 @@
   "name": "task-collector",
   "version": "0.0.0",
   "description": "Task collector",
-  "main": "index.js",
+  "main": "lib",
   "scripts": {
-    "start": "node lib",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node lib"
   },
-  "author": "",
+  "author": "Gerald <i@gerald.top>",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^2.0.0",
