@@ -4,17 +4,27 @@
   "description": "Task collector",
   "main": "lib",
   "scripts": {
+    "dev": "nodemon lib",
     "start": "node lib"
   },
   "author": "Gerald <i@gerald.top>",
   "license": "ISC",
   "dependencies": {
+    "bookshelf": "^0.10.2",
     "dotenv": "^2.0.0",
+    "knex": "^0.12.6",
     "koa": "^1.2.4",
     "koa-bodyparser": "^2.2.0",
     "koa-router": "^5.4.0",
+    "nconf": "^0.8.4",
+    "nconf-yaml": "^1.0.2",
+    "node-fetch": "^1.6.3",
     "sequelize": "^3.24.8",
+    "sequelize-cli": "^2.4.0",
     "spa-static": "^1.2.0",
     "sqlite3": "^3.1.8"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
   }
 }

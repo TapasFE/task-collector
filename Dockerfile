@@ -10,5 +10,5 @@ EXPOSE 4333
 VOLUME $WORKDIR/data
 
 COPY . $WORKDIR
-RUN $NPM i
+RUN $NPM i && $NPM run predeploy && NODE_ENV=production $NPM prune
 CMD npm start
