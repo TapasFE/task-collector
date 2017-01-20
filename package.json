@@ -10,9 +10,6 @@
   "author": "Gerald <i@gerald.top>",
   "license": "ISC",
   "dependencies": {
-    "bookshelf": "^0.10.2",
-    "dotenv": "^2.0.0",
-    "knex": "^0.12.6",
     "koa": "^1.2.4",
     "koa-bodyparser": "^2.2.0",
     "koa-router": "^5.4.0",
