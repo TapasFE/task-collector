@@ -5,7 +5,8 @@
   "main": "lib",
   "scripts": {
     "dev": "nodemon lib",
-    "start": "node lib"
+    "start": "node lib",
+    "db:migrate": "sequelize db:migrate"
   },
   "author": "Gerald <i@gerald.top>",
   "license": "ISC",
